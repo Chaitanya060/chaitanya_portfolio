@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+# Chaitanya Kishore Batta - Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer.
 
-**URL**: https://lovable.dev/projects/5ff3737e-ae73-4d1d-bde5-c80f62b71436
+## 🚀 Features
 
-## How can I edit this code?
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Resume Viewer**: View resume directly in the browser
+- **Project Showcase**: Detailed project presentations with live demos
+- **Skills & Certifications**: Comprehensive display of technical expertise
+- **Contact Integration**: Easy ways to get in touch
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui components
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Animations**: CSS transitions and transforms
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ff3737e-ae73-4d1d-bde5-c80f62b71436) and start prompting.
+## 📋 Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-**Use your preferred IDE**
+## 🔧 Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd portfolio
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Follow these steps:
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+5. **Preview production build**
+   ```bash
+   npm run preview
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📁 Project Structure
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Skills.tsx      # Skills showcase
+│   ├── Projects.tsx    # Projects portfolio
+│   └── ...
+├── pages/              # Page components
+├── assets/             # Static assets (images, PDFs)
+├── lib/                # Utility functions
+└── styles/             # Global styles
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Colors**: Modify the color scheme in `tailwind.config.ts`
+- **Content**: Update personal information in respective component files
+- **Projects**: Add/modify projects in the `Projects.tsx` component
+- **Resume**: Replace the PDF file in the `assets` folder
 
-**Use GitHub Codespaces**
+## 📱 Responsive Design
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The portfolio is fully responsive and optimized for:
+- Desktop (1200px+)
+- Tablet (768px - 1199px)
+- Mobile (320px - 767px)
 
-## What technologies are used for this project?
+## 🚀 Deployment
 
-This project is built with:
+The project can be deployed to any static hosting service:
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📧 Contact
 
-## How can I deploy this project?
+**Chaitanya Kishore Batta**
+- Email: chaitanyakishorebatta@gmail.com
+- LinkedIn: [linkedin.com/in/chaitanya-kishore](https://www.linkedin.com/in/chaitanya-kishore/)
+- GitHub: [github.com/Chaitanya060](https://github.com/Chaitanya060/)
 
-Simply open [Lovable](https://lovable.dev/projects/5ff3737e-ae73-4d1d-bde5-c80f62b71436) and click on Share -> Publish.
+## 📄 License
 
-## Can I connect a custom domain to my Lovable project?
+This project is open source and available under the [MIT License](LICENSE).
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Built with ❤️ using React and TypeScript*

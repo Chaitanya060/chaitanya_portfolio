@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Download, Eye, X, ZoomIn, ZoomOut } from 'lucide-react';
-// We'll use the PDF from the public folder for iframe access
-const resumePdf = '/src/assets/batta_chaitanyakishore.pdf';
+// PDF file served from public folder
+const resumePdf = '/resume.pdf';
 
 interface ResumeViewerProps {
   children: React.ReactNode;
